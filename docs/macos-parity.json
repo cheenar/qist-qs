@@ -1,6 +1,8 @@
 {
-  "binary": "qs 0.2.0",
+  "binary": "qs 0.2.0 (qist \u2014 quick list)",
+  "binary_sha256": "ee67f4fea8a382f53daeb699b472adf7eccdca1318119479df99ba4a359aca44",
   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "recorded_at": "2026-10-25T08:21:10.235007+00:00",
   "total": 236,
   "passed": 236,
   "failed": 0,

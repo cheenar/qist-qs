@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """Compare qs with /bin/ls using disposable macOS filesystem fixtures."""
 import argparse
+from datetime import datetime, timezone
 import difflib
+import hashlib
 import json
 import os
 from pathlib import Path
+import platform
 import pwd
 import re
 import socket
@@ -170,7 +173,14 @@ with tempfile.TemporaryDirectory(prefix="qs-parity-") as directory:
     compare("file flags", ["-lnO"], [flagged])
     sock.close()
 
-report = {"total": len(results), "passed": sum(r["passed"] for r in results), "failed": sum(not r["passed"] for r in results), "cases": results}
+report = {
+    "binary": subprocess.run([str(binary), "--version"], capture_output=True, text=True, check=True).stdout.strip(),
+    "binary_sha256": hashlib.sha256(binary.read_bytes()).hexdigest(),
+    "platform": platform.platform(),
+    "recorded_at": datetime.now(timezone.utc).isoformat(),
+    "total": len(results), "passed": sum(r["passed"] for r in results),
+    "failed": sum(not r["passed"] for r in results), "cases": results,
+}
 if args.save:
     args.save.parent.mkdir(parents=True, exist_ok=True)
     args.save.write_text(json.dumps(report, indent=2, ensure_ascii=True) + "\n")

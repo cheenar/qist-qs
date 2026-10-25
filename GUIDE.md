@@ -453,7 +453,7 @@ for root in listing["roots"]:
 Missing paths, unreadable directories, cycles, and locale collation failures
 produce stderr diagnostics and a nonzero status while preserving usable results
 for other operands. JSON retains a valid envelope and an `errors` array of
-`{path, message}` objects for listing errors. Argument/config errors happen
+`{path, path_bytes, message}` objects for listing errors. Argument/config errors happen
 before listing and do not produce a JSON envelope.
 
 Success is 0. BSD listing/argument errors normally return 1; GNU serious operand

@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-10-25T08:18:44.659502+00:00",
+  "binary_version": "qs 0.2.0 (qist \u2014 quick list)",
+  "binary_sha256": "ee67f4fea8a382f53daeb699b472adf7eccdca1318119479df99ba4a359aca44",
+  "presentation": "Real CLI stdout rendered in a terminal layout; typing/reveal/bar timing is editorial, not execution time.",
+  "benchmark_sources": [
+    "benchmark-macos.json",
+    "benchmark-macos-small.json"
+  ],
+  "benchmark_sha256": [
+    "4e4bfa75f7b56761184e2b4a6b7cebb8870b57f6124dc811e299089246b49566",
+    "bf1ecfbd95466237e2635961744174030a5a4fcb5028485b77ccef0f0950b3c8"
+  ],
+  "captures": [
+    {
+      "key": "table",
+      "title": "Metadata, without the squint.",
+      "subtitle": "Permissions, ownership, sizes, and dates in a labeled table.",
+      "args": [
+        "--no-config",
+        "--table",
+        "-h",
+        "--color=always"
+      ],
+      "command": "qs --no-config --table -h --color=always",
+      "stdout": "\u001b[1mPermissions\u001b[0m  \u001b[1mLinks\u001b[0m  \u001b[1mOwner\u001b[0m  \u001b[1mGroup\u001b[0m  \u001b[1mSize\u001b[0m  \u001b[1mModified\u001b[0m      \u001b[1mName\u001b[0m\n\u001b[2m\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u001b[0m\n-rw-r--r--@      1  peter  staff   43B  \u001b[2mOct 25  2026\u001b[0m  Cargo.toml\n-rw-r--r--@      1  peter  staff   78B  \u001b[2mOct 25  2026\u001b[0m  config.toml\ndrwxr-xr-x@      4  peter  staff  128B  \u001b[2mOct 25  2026\u001b[0m  \u001b[1;34mdocs\u001b[0m\nlrwxr-xr-x@      1  peter  staff    3B  \u001b[2mOct 25  2026\u001b[0m  \u001b[36mlatest\u001b[0m -> src\n-rw-r--r--@      1  peter  staff   55B  \u001b[2mOct 25  2026\u001b[0m  README.md\n-rwxr-xr-x@      1  peter  staff   34B  \u001b[2mOct 25  2026\u001b[0m  \u001b[32mrun.sh\u001b[0m\ndrwxr-xr-x@      5  peter  staff  160B  \u001b[2mOct 25  2026\u001b[0m  \u001b[1;34msrc\u001b[0m\ndrwxr-xr-x@      3  peter  staff   96B  \u001b[2mOct 25  2026\u001b[0m  \u001b[1;34mtests\u001b[0m\n",
+      "raw_stdout": "\u001b[1mPermissions\u001b[0m  \u001b[1mLinks\u001b[0m  \u001b[1mOwner\u001b[0m  \u001b[1mGroup\u001b[0m  \u001b[1mSize\u001b[0m  \u001b[1mModified\u001b[0m      \u001b[1mName\u001b[0m\n\u001b[2m\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u001b[0m\n-rw-r--r--@      1  peter  staff   43B  \u001b[2mOct 25  2026\u001b[0m  Cargo.toml\n-rw-r--r--@      1  peter  staff   78B  \u001b[2mOct 25  2026\u001b[0m  config.toml\ndrwxr-xr-x@      4  peter  staff  128B  \u001b[2mOct 25  2026\u001b[0m  \u001b[1;34mdocs\u001b[0m\nlrwxr-xr-x@      1  peter  staff    3B  \u001b[2mOct 25  2026\u001b[0m  \u001b[36mlatest\u001b[0m -> src\n-rw-r--r--@      1  peter  staff   55B  \u001b[2mOct 25  2026\u001b[0m  README.md\n-rwxr-xr-x@      1  peter  staff   34B  \u001b[2mOct 25  2026\u001b[0m  \u001b[32mrun.sh\u001b[0m\ndrwxr-xr-x@      5  peter  staff  160B  \u001b[2mOct 25  2026\u001b[0m  \u001b[1;34msrc\u001b[0m\ndrwxr-xr-x@      3  peter  staff   96B  \u001b[2mOct 25  2026\u001b[0m  \u001b[1;34mtests\u001b[0m\n",
+      "stderr": "",
+      "status": 0,
+      "duration": 9
+    },
+    {
+      "key": "tree",
+      "title": "See the shape of a project.",
+      "subtitle": "Depth limits, symlinks, and directory counts.",
+      "args": [
+        "--no-config",
+        "--tree",
+        "--depth=2",
+        "--color=always"
+      ],
+      "command": "qs --no-config --tree --depth=2 --color=always",
+      "stdout": "\u001b[1;34m.\u001b[0m\n\u001b[2m\u251c\u2500\u2500 \u001b[0mCargo.toml\n\u001b[2m\u251c\u2500\u2500 \u001b[0mconfig.toml\n\u001b[2m\u251c\u2500\u2500 \u001b[0m\u001b[1;34mdocs\u001b[0m\n\u001b[2m\u2502   \u251c\u2500\u2500 \u001b[0mguide.md\n\u001b[2m\u2502   \u2514\u2500\u2500 \u001b[0mnotes.md\n\u001b[2m\u251c\u2500\u2500 \u001b[0m\u001b[36mlatest\u001b[0m -> \u001b[36msrc\u001b[0m\n\u001b[2m\u251c\u2500\u2500 \u001b[0mREADME.md\n\u001b[2m\u251c\u2500\u2500 \u001b[0m\u001b[32mrun.sh\u001b[0m\n\u001b[2m\u251c\u2500\u2500 \u001b[0m\u001b[1;34msrc\u001b[0m\n\u001b[2m\u2502   \u251c\u2500\u2500 \u001b[0mfs.rs\n\u001b[2m\u2502   \u251c\u2500\u2500 \u001b[0mmain.rs\n\u001b[2m\u2502   \u2514\u2500\u2500 \u001b[0mrender.rs\n\u001b[2m\u2514\u2500\u2500 \u001b[0m\u001b[1;34mtests\u001b[0m\n\u001b[2m    \u2514\u2500\u2500 \u001b[0mcli.rs\n\n3 directories, 11 files\n",
+      "raw_stdout": "\u001b[1;34m.\u001b[0m\n\u001b[2m\u251c\u2500\u2500 \u001b[0mCargo.toml\n\u001b[2m\u251c\u2500\u2500 \u001b[0mconfig.toml\n\u001b[2m\u251c\u2500\u2500 \u001b[0m\u001b[1;34mdocs\u001b[0m\n\u001b[2m\u2502   \u251c\u2500\u2500 \u001b[0mguide.md\n\u001b[2m\u2502   \u2514\u2500\u2500 \u001b[0mnotes.md\n\u001b[2m\u251c\u2500\u2500 \u001b[0m\u001b[36mlatest\u001b[0m -> \u001b[36msrc\u001b[0m\n\u001b[2m\u251c\u2500\u2500 \u001b[0mREADME.md\n\u001b[2m\u251c\u2500\u2500 \u001b[0m\u001b[32mrun.sh\u001b[0m\n\u001b[2m\u251c\u2500\u2500 \u001b[0m\u001b[1;34msrc\u001b[0m\n\u001b[2m\u2502   \u251c\u2500\u2500 \u001b[0mfs.rs\n\u001b[2m\u2502   \u251c\u2500\u2500 \u001b[0mmain.rs\n\u001b[2m\u2502   \u2514\u2500\u2500 \u001b[0mrender.rs\n\u001b[2m\u2514\u2500\u2500 \u001b[0m\u001b[1;34mtests\u001b[0m\n\u001b[2m    \u2514\u2500\u2500 \u001b[0mcli.rs\n\n3 directories, 11 files\n",
+      "stderr": "",
+      "status": 0,
+      "duration": 8
+    },
+    {
+      "key": "json",
+      "title": "For people. And programs.",
+      "subtitle": "A versioned JSON envelope, with exact filename bytes.",
+      "args": [
+        "--no-config",
+        "--json",
+        "docs"
+      ],
+      "command": "qs --no-config --json docs | jq '{schema_version, files: [.roots[].entries[].name]}'",
+      "stdout": "{\n  \"schema_version\": 1,\n  \"files\": [\n    \"guide.md\",\n    \"notes.md\"\n  ]\n}\n",
+      "raw_stdout": "{\"schema_version\":1,\"roots\":[{\"acl\":null,\"broken_symlink\":false,\"error\":null,\"extended_attributes\":[],\"inode\":54109974,\"metadata\":{\"accessed\":{\"nanoseconds\":0,\"seconds\":1792929600},\"blocks\":0,\"changed\":{\"nanoseconds\":328396007,\"seconds\":1792916324},\"created\":{\"nanoseconds\":326010845,\"seconds\":1792916324},\"device\":16777233,\"flags\":0,\"gid\":20,\"inode\":54109974,\"links\":4,\"mode\":16877,\"modified\":{\"nanoseconds\":0,\"seconds\":1792929600},\"rdev\":0,\"size\":128,\"uid\":501},\"name\":\"docs\",\"name_bytes\":[100,111,99,115],\"path\":\"docs\",\"path_bytes\":[100,111,99,115],\"permissions\":\"drwxr-xr-x\",\"security_context\":null,\"symlink_target\":null,\"symlink_target_bytes\":null,\"type\":\"directory\",\"entries\":[{\"acl\":null,\"broken_symlink\":false,\"error\":null,\"extended_attributes\":[],\"inode\":54109975,\"metadata\":{\"accessed\":{\"nanoseconds\":0,\"seconds\":1792929600},\"blocks\":8,\"changed\":{\"nanoseconds\":328387673,\"seconds\":1792916324},\"created\":{\"nanoseconds\":326079220,\"seconds\":1792916324},\"device\":16777233,\"flags\":0,\"gid\":20,\"inode\":54109975,\"links\":1,\"mode\":33188,\"modified\":{\"nanoseconds\":0,\"seconds\":1792929600},\"rdev\":0,\"size\":14,\"uid\":501},\"name\":\"guide.md\",\"name_bytes\":[103,117,105,100,101,46,109,100],\"path\":\"docs/guide.md\",\"path_bytes\":[100,111,99,115,47,103,117,105,100,101,46,109,100],\"permissions\":\"-rw-r--r--\",\"security_context\":null,\"symlink_target\":null,\"symlink_target_bytes\":null,\"type\":\"file\"},{\"acl\":null,\"broken_symlink\":false,\"error\":null,\"extended_attributes\":[],\"inode\":54109976,\"metadata\":{\"accessed\":{\"nanoseconds\":0,\"seconds\":1792929600},\"blocks\":8,\"changed\":{\"nanoseconds\":328378507,\"seconds\":1792916324},\"created\":{\"nanoseconds\":326182220,\"seconds\":1792916324},\"device\":16777233,\"flags\":0,\"gid\":20,\"inode\":54109976,\"links\":1,\"mode\":33188,\"modified\":{\"nanoseconds\":0,\"seconds\":1792929600},\"rdev\":0,\"size\":20,\"uid\":501},\"name\":\"notes.md\",\"name_bytes\":[110,111,116,101,115,46,109,100],\"path\":\"docs/notes.md\",\"path_bytes\":[100,111,99,115,47,110,111,116,101,115,46,109,100],\"permissions\":\"-rw-r--r--\",\"security_context\":null,\"symlink_target\":null,\"symlink_target_bytes\":null,\"type\":\"file\"}]}],\"errors\":[]}\n",
+      "stderr": "",
+      "status": 0,
+      "duration": 7
+    },
+    {
+      "key": "config",
+      "title": "Your default. Your terminal.",
+      "subtitle": "This fixture config sets table output and human-readable sizes.",
+      "args": [
+        "--config=config.toml",
+        "--color=always"
+      ],
+      "command": "qs --config=config.toml --color=always",
+      "stdout": "\u001b[1mPermissions\u001b[0m  \u001b[1mLinks\u001b[0m  \u001b[1mOwner\u001b[0m  \u001b[1mGroup\u001b[0m  \u001b[1mSize\u001b[0m  \u001b[1mModified\u001b[0m      \u001b[1mName\u001b[0m\n\u001b[2m\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u001b[0m\ndrwxr-xr-x@      4  peter  staff  128B  \u001b[2mOct 25  2026\u001b[0m  \u001b[1;34mdocs\u001b[0m\ndrwxr-xr-x@      5  peter  staff  160B  \u001b[2mOct 25  2026\u001b[0m  \u001b[1;34msrc\u001b[0m\ndrwxr-xr-x@      3  peter  staff   96B  \u001b[2mOct 25  2026\u001b[0m  \u001b[1;34mtests\u001b[0m\n-rw-r--r--@      1  peter  staff   43B  \u001b[2mOct 25  2026\u001b[0m  Cargo.toml\n-rw-r--r--@      1  peter  staff   78B  \u001b[2mOct 25  2026\u001b[0m  config.toml\nlrwxr-xr-x@      1  peter  staff    3B  \u001b[2mOct 25  2026\u001b[0m  \u001b[36mlatest\u001b[0m -> src\n-rw-r--r--@      1  peter  staff   55B  \u001b[2mOct 25  2026\u001b[0m  README.md\n-rwxr-xr-x@      1  peter  staff   34B  \u001b[2mOct 25  2026\u001b[0m  \u001b[32mrun.sh\u001b[0m\n",
+      "raw_stdout": "\u001b[1mPermissions\u001b[0m  \u001b[1mLinks\u001b[0m  \u001b[1mOwner\u001b[0m  \u001b[1mGroup\u001b[0m  \u001b[1mSize\u001b[0m  \u001b[1mModified\u001b[0m      \u001b[1mName\u001b[0m\n\u001b[2m\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u001b[0m\ndrwxr-xr-x@      4  peter  staff  128B  \u001b[2mOct 25  2026\u001b[0m  \u001b[1;34mdocs\u001b[0m\ndrwxr-xr-x@      5  peter  staff  160B  \u001b[2mOct 25  2026\u001b[0m  \u001b[1;34msrc\u001b[0m\ndrwxr-xr-x@      3  peter  staff   96B  \u001b[2mOct 25  2026\u001b[0m  \u001b[1;34mtests\u001b[0m\n-rw-r--r--@      1  peter  staff   43B  \u001b[2mOct 25  2026\u001b[0m  Cargo.toml\n-rw-r--r--@      1  peter  staff   78B  \u001b[2mOct 25  2026\u001b[0m  config.toml\nlrwxr-xr-x@      1  peter  staff    3B  \u001b[2mOct 25  2026\u001b[0m  \u001b[36mlatest\u001b[0m -> src\n-rw-r--r--@      1  peter  staff   55B  \u001b[2mOct 25  2026\u001b[0m  README.md\n-rwxr-xr-x@      1  peter  staff   34B  \u001b[2mOct 25  2026\u001b[0m  \u001b[32mrun.sh\u001b[0m\n",
+      "stderr": "",
+      "status": 0,
+      "duration": 7
+    }
+  ]
+}

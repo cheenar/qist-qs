@@ -85,7 +85,7 @@ and `POSIXLY_CORRECT` argument termination are supported. Optional arguments
 The macOS differential suite currently passes 236 fixture cases against the
 host's `/bin/ls`. Ordinary output is compared byte-for-byte along with exit
 status. Color cases compare text and terminal attributes, allowing equivalent
-SGR reset/framing sequences. The last local installed-binary results are saved
+SGR reset/framing sequences. The latest local release-binary results are saved
 in [macos-parity.json](macos-parity.json). Run it with:
 
 ```sh
