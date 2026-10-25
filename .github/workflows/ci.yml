@@ -1,0 +1,22 @@
+name: qist
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - run: make check
+      - run: make test
+      - if: runner.os == 'macOS'
+        run: |
+          cargo build --locked
+          python3 scripts/macos-parity.py --save target/macos-parity.json
+      - run: make build

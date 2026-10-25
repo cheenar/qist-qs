@@ -1,0 +1,28 @@
+# qist — quick list
+# Location: ~/.config/qist/config.toml (or $XDG_CONFIG_HOME/qist/config.toml)
+# Command-line flags override these settings. --no-config uses built-in defaults.
+
+# auto | single | columns | across | commas | long | json | table | tree
+# auto: columns in a terminal, one entry per line in a pipe.
+default_output = "auto"
+
+# auto | always | never; auto respects NO_COLOR, TERM=dumb and redirected output.
+color = "auto"
+icons = false
+human_readable = false
+group_directories_first = false
+# tree_depth = 3
+
+# ANSI SGR codes use YOUR terminal palette, so dark/light themes work naturally.
+# LS_COLORS (GNU) and LSCOLORS (BSD) override file-type colors when present.
+# Example: "1;34" = bold blue, "38;5;75" = indexed color, "" = default foreground.
+[colors]
+directory = "1;34"
+symlink = "36"
+executable = "32"
+file = ""
+broken_symlink = "1;31"
+header = "1"
+muted = "2"
+size = "33"
+date = "2"

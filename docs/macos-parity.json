@@ -1,0 +1,1425 @@
+{
+  "binary": "qs 0.2.0",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "total": 236,
+  "passed": 236,
+  "failed": 0,
+  "cases": [
+    {
+      "case": "basic -1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -a1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -A1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -I1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -AI1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -IA1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1r",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1S",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1t",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1ty",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1try",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1fS",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1F",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1p",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1L",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1s",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1is",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1b",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1B",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1q",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -ln",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -lnO",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -lno",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -lng",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -lngo",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -lnF",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -lnp",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -lnh",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -lns",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -lnis",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -ln@",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -ln@h",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -ln@k",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -lnT",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -lnU",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -lnu",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -lnc",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -lnhk",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -lnkh",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1R",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1aR",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -1LR",
+      "passed": true,
+      "qs_status": 1,
+      "ls_status": 1
+    },
+    {
+      "case": "basic -1W",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "basic -ln%",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -C width=8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -x width=8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -m width=8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Ci width=8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cis width=8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -CF width=8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cb width=8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cq width=8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -xF width=8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -C width=16",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -x width=16",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -m width=16",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Ci width=16",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cis width=16",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -CF width=16",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cb width=16",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cq width=16",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -xF width=16",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -C width=20",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -x width=20",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -m width=20",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Ci width=20",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cis width=20",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -CF width=20",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cb width=20",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cq width=20",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -xF width=20",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -C width=40",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -x width=40",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -m width=40",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Ci width=40",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cis width=40",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -CF width=40",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cb width=40",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cq width=40",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -xF width=40",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -C width=80",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -x width=80",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -m width=80",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Ci width=80",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cis width=80",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -CF width=80",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cb width=80",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cq width=80",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -xF width=80",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -C width=160",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -x width=160",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -m width=160",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Ci width=160",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cis width=160",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -CF width=160",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cb width=160",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cq width=160",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -xF width=160",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -C width=200",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -x width=200",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -m width=200",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Ci width=200",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cis width=200",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -CF width=200",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cb width=200",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -Cq width=200",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "layout -xF width=200",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "column-minima -lnisO 10:5:4:12:12:12:10:30",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "column-minima -Cis 10:5:4:12:12:12:10:30",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "column-minima -1is 10:5:4:12:12:12:10:30",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "column-minima -lnisO 0:0:0:0:0:0:0:30",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "column-minima -Cis 0:0:0:0:0:0:0:30",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "column-minima -1is 0:0:0:0:0:0:0:30",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "column-minima -lnisO 1:1:1:1:1:1:1:1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "column-minima -Cis 1:1:1:1:1:1:1:1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "column-minima -1is 1:1:1:1:1:1:1:1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "column-minima -lnisO invalid",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "column-minima -Cis invalid",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "column-minima -1is invalid",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "blocksize 1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "blocksize 513",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "blocksize 768",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "blocksize 1K",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "blocksize 10K",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "blocksize 1m",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "blocksize 0",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "blocksize invalid",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "ignore GNU environment",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "link operand -1H",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "link operand -lnH",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "link operand -lnL",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "link operand -lnP",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "link operand -lnHL",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "link operand -lnLH",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "link operand -lnLP",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "link operand -lnPH",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "link operand -dlnH",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "options after operand",
+      "passed": true,
+      "qs_status": 1,
+      "ls_status": 1
+    },
+    {
+      "case": "unknown option",
+      "passed": true,
+      "qs_status": 1,
+      "ls_status": 1
+    },
+    {
+      "case": "missing operand",
+      "passed": true,
+      "qs_status": 1,
+      "ls_status": 1
+    },
+    {
+      "case": "device /dev/null -ln",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "device /dev/null -lnh",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "device /dev/null -lnsO",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "device /dev/null -lnF",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "device /dev/zero -ln",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "device /dev/zero -lnh",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "device /dev/zero -lnsO",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "device /dev/zero -lnF",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "device /dev/random -ln",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "device /dev/random -lnh",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "device /dev/random -lnsO",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "device /dev/random -lnF",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "human sizes",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date locale C",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date full C",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "grouped size C",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "human size locale C",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale C -1q",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale C -1b",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale C -1B",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date locale en_US.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date full en_US.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "grouped size en_US.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "human size locale en_US.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale en_US.UTF-8 -1q",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale en_US.UTF-8 -1b",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale en_US.UTF-8 -1B",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date locale en_GB.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date full en_GB.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "grouped size en_GB.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "human size locale en_GB.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale en_GB.UTF-8 -1q",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale en_GB.UTF-8 -1b",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale en_GB.UTF-8 -1B",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date locale de_DE.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date full de_DE.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "grouped size de_DE.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "human size locale de_DE.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale de_DE.UTF-8 -1q",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale de_DE.UTF-8 -1b",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale de_DE.UTF-8 -1B",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date locale fr_FR.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date full fr_FR.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "grouped size fr_FR.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "human size locale fr_FR.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale fr_FR.UTF-8 -1q",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale fr_FR.UTF-8 -1b",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale fr_FR.UTF-8 -1B",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date locale hi_IN.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date full hi_IN.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "grouped size hi_IN.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "human size locale hi_IN.UTF-8",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale hi_IN.UTF-8 -1q",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale hi_IN.UTF-8 -1b",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale hi_IN.UTF-8 -1B",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date locale fr_FR.ISO8859-1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date full fr_FR.ISO8859-1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "grouped size fr_FR.ISO8859-1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "human size locale fr_FR.ISO8859-1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale fr_FR.ISO8859-1 -1q",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale fr_FR.ISO8859-1 -1b",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale fr_FR.ISO8859-1 -1B",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date locale de_DE.ISO8859-1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date full de_DE.ISO8859-1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "grouped size de_DE.ISO8859-1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "human size locale de_DE.ISO8859-1",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale de_DE.ISO8859-1 -1q",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale de_DE.ISO8859-1 -1b",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale de_DE.ISO8859-1 -1B",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date locale ja_JP.SJIS",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "date full ja_JP.SJIS",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "grouped size ja_JP.SJIS",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "human size locale ja_JP.SJIS",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filename locale ja_JP.SJIS -1q",
+      "passed": true,
+      "qs_status": 1,
+      "ls_status": 1
+    },
+    {
+      "case": "filename locale ja_JP.SJIS -1b",
+      "passed": true,
+      "qs_status": 1,
+      "ls_status": 1
+    },
+    {
+      "case": "filename locale ja_JP.SJIS -1B",
+      "passed": true,
+      "qs_status": 1,
+      "ls_status": 1
+    },
+    {
+      "case": "custom date ['-ln', '-D', '%Y', '-T']",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "custom date ['-ln', '-D', '']",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "custom date ['-ln', '-D', '%Y\\n%H']",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "custom date ['-ln', '-D', '%s']",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "acl -dlne",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "acl -dlne@",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "acl -dlneO",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "acl identity and inheritance -dle",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "acl identity and inheritance -dlne",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "filesystem boundary",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "resource fork -ln@",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "resource fork -lnh",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "resource fork -lns",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "resource fork -ln@b",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "resource fork -ln@B",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "resource fork -ln@q",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "terminal colors exfxcxdxbxegedabagacadah",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "terminal colors ExGxFxdxCxegedabagacedah",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "terminal colors Ex",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    },
+    {
+      "case": "file flags",
+      "passed": true,
+      "qs_status": 0,
+      "ls_status": 0
+    }
+  ]
+}
